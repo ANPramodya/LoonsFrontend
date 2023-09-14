@@ -1,0 +1,33 @@
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.examFormContainer {
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.examForm {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.examName,
+.examDuration {
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: large;
+  padding: 0.5rem 1rem;
+}
+
+.formBtn {
+  grid-column: span 2;
+  margin-top: 20px;
+  width: 50%;
+  justify-self: center;
+}
